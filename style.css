@@ -1,0 +1,172 @@
+
+        
+        video {
+            max-width: 200%;
+           
+            /* Add any other video-specific styles here */
+        }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column; /* Ensure elements are stacked vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: flex-start; /* Align elements to the top */
+    min-height: 100vh; /* Ensure the page takes up the full viewport height */
+}
+
+header {
+    background-color: #3498db;
+    text-align: center;
+    padding: 20px 0; /* Adjust the padding as needed */
+}
+
+.circle-container {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px; /* Adjust the margin to add space between the header and the circle */
+}
+
+.circle {
+    width: 70px;
+    height: 55px;
+    background-color: #36c5f5;
+    border-radius: 50%;
+    animation: spin 6s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-text {
+    color: #F536C5 ;
+    font-size: 12px;
+    font-weight: bold;
+
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+p {
+    font-family: "Arial", sans-serif;
+}
+
+p {
+    font-size: 50px;
+}
+
+p {
+    color: #fff; /* Red color using hexadecimal value */
+}
+
+.about-paragraph {
+    font-family: "Arial", sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+
+
+
+video {
+height: 578px;
+
+}
+
+/* Rule for the first background */
+.background1 {
+    background-image: url('background2.png');
+    background-size:  100% auto;
+    background-repeat: no-repeat;
+}
+
+/* Rule for the second background */
+.background2 {
+    background-image: url('EVENTSBACKGROUND.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background3 {
+    background-image: url('ABOUTBACKGROUND.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.corner {
+    position: absolute;
+    width: 270px;
+    height: 100px;
+    background-color: #C5F536;
+    color: #F536C5;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.a1 {
+  color: #F536C5; /* Set the link text color */
+  text-decoration: none; /* Remove the default underline */
+}
+
+.corner-button {
+    position: absolute;
+    font-size: 15px;
+     font-weight: 500;
+}
+
+#top-left {
+    top: 0;
+    left: 0;
+}
+
+#top-right {
+    top: 0;
+    right: 0;
+}
+
+#bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+#bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+/* styles.css */
+.corner-link {
+    position: absolute;
+    top: 0; /* Adjust these values to position the button as needed */
+    left: 0; /* Adjust these values to position the button as needed */
+}
+
+/* Add styles for the button (optional) */
+.corner-button {
+    background-color: #36c5f5;
+    color: #c42b9d ;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+
+
+}
+
+.corner-button:hover {
+    background-color: #C5F536;
+}
+
+
+
