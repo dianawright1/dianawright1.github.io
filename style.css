@@ -29,55 +29,20 @@ header {
     margin-top: 20px; /* Adjust the margin to add space between the header and the circle */
 }
 
-.circle {
-    width: 70px;
-    height: 55px;
-    background-color: #36c5f5;
-    border-radius: 50%;
-    animation: spin 6s linear infinite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.circle-text {
-    color: #F536C5 ;
-    font-size: 12px;
-    font-weight: bold;
-
-
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 
 p {
-    font-family: "Arial", sans-serif;
+    font-family: "Cairo", sans-serif;
 }
 
 p {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 p {
     color: #fff; /* Red color using hexadecimal value */
 }
-
-.about-paragraph {
-    font-family: "Arial", sans-serif;
-    font-size: 50px;
-    color: #fff;
-}
-
-
-
 
 video {
 height: 578px;
@@ -86,8 +51,8 @@ height: 578px;
 
 /* Rule for the first background */
 .background1 {
-    background-image: url('background2.png');
-    background-size:  100% auto;
+    background-image: url('INDEXBACKGROUND.png');
+    background-size:  1920,1080 auto;
     background-repeat: no-repeat;
 }
 
@@ -97,8 +62,55 @@ height: 578px;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+
+h1 {
+    font-size: 50px; /* Adjust the font size as needed */
+}
+
+
+.speech-bubble {
+    width: 800px; /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+    background-color: #F986DC; /* Pink color */
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+    position: center; /* Required for positioning the tail */
+}
+
+
+h1 {
+    font-family: "Kabond font", sans-serif;
+   color: #fff;
+}
+
+
+
+/* Other CSS rules for styling your content */
+
+
 .background3 {
     background-image: url('ABOUTBACKGROUND.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background4 {
+    background-image: url('WELCOME.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -121,7 +133,7 @@ height: 578px;
 
 .corner-button {
     position: absolute;
-    font-size: 15px;
+    font-size: 20px;
      font-weight: 500;
 }
 
@@ -154,9 +166,9 @@ height: 578px;
 
 /* Add styles for the button (optional) */
 .corner-button {
-    background-color: #36c5f5;
+    background-color: #fff;
     color: #c42b9d ;
-    padding: 20px 30px;
+    padding: 60px ;
     border: none;
     cursor: pointer;
     border-radius: 0px;
@@ -165,7 +177,7 @@ height: 578px;
 }
 
 .corner-button:hover {
-    background-color: #C5F536;
+    background-color: #b1dc30;
 }
 
 
