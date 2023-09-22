@@ -1,4 +1,4 @@
-// Get references to the buttons by their IDs
+// references to the buttons by their IDs
 const topLeftButton = document.getElementById('top-left');
 const topRightButton = document.getElementById('top-right');
 const bottomLeftButton = document.getElementById('bottom-left');
@@ -12,7 +12,7 @@ function changeButtonColor(button) {
     button.style.backgroundColor = randomColor;
 }
 
-// Add click event listeners to each button
+// click event listeners to each button
 topLeftButton.addEventListener('click', () => changeButtonColor(topLeftButton));
 topRightButton.addEventListener('click', () => changeButtonColor(topRightButton));
 bottomLeftButton.addEventListener('click', () => changeButtonColor(bottomLeftButton));
