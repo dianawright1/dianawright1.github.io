@@ -1,0 +1,179 @@
+
+        
+        video {
+            max-width: 200%;
+           
+            /* Add any other video-specific styles here */
+        }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-start; 
+    min-height: 100vh; /* Ensures the page takes up the full viewport height */
+}
+
+header {
+    background-color: #3498db;
+    text-align: center;
+    padding: 20px 0; /* Adjusts the padding as needed */
+}
+
+ /* ADJUSTMENTS FOR TEXT INSIDE SPEECH BUBBLE FOR ABOUT PAGE */
+p {
+    font-family: "Cairo", sans-serif;
+}
+
+p {
+    font-size: 30px;
+}
+
+p {
+    color: #fff; /* Red color using hexadecimal value */
+}
+
+
+ /* MEASUREMENTS FOR VIDEO */
+video {
+height: 578px;
+
+}
+
+/* Rule for the first background */
+.background1 {
+    background-image: url('INDEXBACKGROUND.png');
+    background-size:  1920,1080 auto;
+    background-repeat: no-repeat;
+}
+
+/* Rule for the second background */
+.background2 {
+    background-image: url('EVENTSBACKGROUND.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+ /* PARAMETERS FOR HEADERS ON ALL PAGES */
+header h1 {
+    font-size: 24px;
+}
+
+
+h1 {
+    font-size: 50px; /* Adjust the font size as needed */
+}
+
+ /* ADJUSTMENTS FOR THE SPEECH BUBBLE ON THE ABOUT PAGE */
+.speech-bubble {
+    width: 800px; /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+    background-color: #F986DC; /* Pink color */
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+    position: center; 
+}
+
+
+h1 {
+    font-family: "Kabond font", sans-serif;
+   color: #fff;
+}
+
+ /* CHANGES EACH IMAGE BACKGROUND FOR EVERY PAGE */
+
+.background3 {
+    background-image: url('ABOUTBACKGROUND.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background4 {
+    background-image: url('WELCOME.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.corner {
+    position: absolute;
+    width: 270px;
+    height: 100px;
+    background-color: #C5F536;
+    color: #F536C5;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+ /* SETS THE LINK COLOR FOR BUTTON LINKS */
+.a1 {
+  color: #F536C5; 
+  text-decoration: none; 
+}
+
+ /* TO ADJUST PARAMETERS FOR EACH BUTTON IN THE INDEX */
+
+.corner-button {
+    position: absolute;
+    font-size: 20px;
+     font-weight: 500;
+}
+
+#top-left {
+    top: 0;
+    left: 0;
+}
+
+#top-right {
+    top: 0;
+    right: 0;
+}
+
+#bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+#bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+
+.corner-link {
+    position: absolute;
+    top: 0; /* Adjust these values to position the button as needed */
+    left: 0; /* Adjust these values to position the button as needed */
+}
+
+/* To add styles for the button */
+.corner-button {
+    background-color: #fff;
+    color: #c42b9d ;
+    padding: 60px ;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+
+
+}
+ /* TO CHANGE BUTTON CLICK COLOR */
+.corner-button:hover {
+    background-color: #b1dc30;
+}
+
+
+
