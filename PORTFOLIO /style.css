@@ -1,0 +1,163 @@
+
+body {
+    text-align: center;
+    background-color: #00cccc;
+    transition: background-color 0.5s ease;
+    margin: 5; /* Remove default body margin */
+    padding: 5; /* Remove default body padding */
+}
+
+nav {
+    margin-top: 45px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+
+ body {
+                background-color: #000; /* Change background color for mobile */
+                background-image: url('memobile.png'); /* Add background image for mobile */
+                background-size: 50%; /* Adjust background size to cover the entire screen */
+            }
+
+
+.secondary-header {
+    position: absolute;
+    right: 780px;
+    top: 50px;
+    font-size: 40px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 600px) 
+
+
+ body {
+                background-color: #000; /* Change background color for mobile */
+                background-image: url('memobile.png'); /* Add background image for mobile */
+                background-size: 50%; /* Adjust background size to cover the entire screen */
+            }
+
+    nav {
+        margin-top: 20px;
+    }
+    nav li {
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+
+    .square-container {
+        display: none;
+    }
+
+    img.desktop-image {
+        display: none;
+    }
+
+    .mobile-image {
+        display: block;
+    }
+
+    .secondary-header {
+        right: 200px;
+        top: auto;
+        font-size: 30px;
+    }
+}
+
+/* Media Queries for Larger Screens (Desktop) */
+@media only screen and (min-width: 601px) {
+    header {
+        background-size: 200%; /* Set background size to 100% only for desktop */
+    }
+}
+/
+
+    nav {
+        margin-top: 35px;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-right: 20px; /* spacing between buttons */
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px 20px; /*  padding to make buttons larger */
+        border: 2px solid #fff; /* Add a border for a button-like appearance */
+        border-radius: 3px; 
+    }
+
+ .square-container {
+    margin-top: 200px; /* Add margin to create space between buttons and square container */
+}
+
+.square-button {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #fff; /* Added border style */
+    color: #fff;
+    background-color: #FFB0C1; /* Set the original background color */
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.5s ease; /* Add smooth transition effect */
+    margin-left: -600px; /* Adjust the margin-left value as needed */
+}
+
+.square-button:hover {
+    background-color: #fff; /* Change this to the desired background color on hover */
+}
+
+/* New button container */
+.square2-container {
+    margin-top: 20px; /* Adjust the margin-top value to position it below the first button */
+}
+
+.square2-button {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #fff; /* Added border style */
+    color: #fff;
+    background-color: #fff; /* Set the background color for the new button */
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.5s ease; /* Add smooth transition effect */
+    margin-left: 600px; /* Adjust the margin-left value as needed */
+}
+
+
+
+
+
+
+

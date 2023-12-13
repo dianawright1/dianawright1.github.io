@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diana Donatella</title>
+    <link rel="stylesheet" href="biostyle.css">
+    <style>
+
+        /* FOR PINK SQUARE */
+
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .center-square {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 800px;
+            height: 600px;
+            background-color: #FC2D72;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .center-square .text-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .center-square .text-overlay div {
+            font-size: 1em;
+            text-align: center;
+            letter-spacing: 2px;
+            line-height: 1.5;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .center-square {
+                width: 90%;
+                height: auto;
+            }
+
+            .center-square .text-overlay {
+                padding: 10px;
+            }
+
+            .center-square .text-overlay div {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+    <script src="script2.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="bio.html">BIO</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="center-square">
+            <div class="text-overlay">
+                <div>
+                    Born on October 7, 2004, in Ridgewood, NJ, Diana Donatella is an independent artist specialized in design and musical performance. The pandemic, which affected the world in 2020, provided an unexpected opportunity for her. While attending high school online in the United States, she seized the chance to pursue her passion for music in Berlin. This marked a pivotal moment in her life, as she took the initiative to produce and record her first-ever songs. Beyond her musical pursuits, Diana is also dedicated to her education. Currently enrolled as a student at NYU Abu Dhabi, she is actively pursuing studies in music production and design. As she continues her studies at NYU Abu Dhabi, Diana aims to deepen her understanding of music production and design, likely preparing herself for a multifaceted career in the music industry. Her journey serves as an inspiring example of how young artists can navigate challenges, embrace diverse influences, and carve out their paths in the ever-evolving world of music and art.
+                </div>
+            </div>
+        </div>
+        <section class="square-container">
+            <div class="square" style="position: relative; margin-top: -105px;">
+                <img src="whoami.jpg" alt="Description of the image" width="400" height="600" style="margin-left: -550px;">
+                <div class="text-container">
+                    
+                </div>
+            </div>
+        </section>
+    </header>
+</body>
+
+</html>
